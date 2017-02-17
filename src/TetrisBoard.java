@@ -19,6 +19,7 @@ public class TetrisBoard {
 				spaces[x][y] = new TetrisBoardSpace(new Point(cellW,cellH));
 			}
 		}
+		
 		//Size and Image initialization
 		Size = size;
 		buffer1 = new BufferedImage(size.x,size.y,BufferedImage.TYPE_4BYTE_ABGR);
